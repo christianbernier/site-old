@@ -16,7 +16,8 @@ export default ({
       css={css`
         height: auto;
         min-height: 300px;
-        background-color: var(--highlight-blue);
+        border: 3px solid var(--font-navy);
+        background-color: var(--white-background);
         border-radius: 10px;
         margin: 20px 0;
         display: grid;
@@ -30,7 +31,7 @@ export default ({
           margin: 20px calc(((100vw - 1700px) / 2) + 30px);
         } */
 
-        @media only screen and (max-width: 500px) {
+        @media only screen and (max-width: 800px) {
           grid-template-areas:
             "title"
             "desc"
@@ -87,7 +88,7 @@ export default ({
           text-align: right;
           padding-right: 30px;
 
-          @media only screen and (max-width: 500px) {
+          @media only screen and (max-width: 800px) {
             margin-bottom: 30px;
             text-align: left;
             padding-left: 30px;

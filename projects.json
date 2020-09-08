@@ -72,7 +72,7 @@
     "sourceCodeUrl": "https://github.com/christianbernier/fractals"
   },
   {
-    "title": "AutoScheduler",
+    "title": "Auto Scheduler",
     "description": "An automated script to schedule church service volunteers for me. I got tired of doing it manually, okay?",
     "dateActive": "February 2019",
     "languages": "Java",
@@ -136,7 +136,7 @@
     "sourceCodeUrl": "https://github.com/christianbernier/Countdown"
   },
   {
-    "title": "BubbleBounce",
+    "title": "Bubble Bounce",
     "description": "One of my first programs. It's me experimenting with Processing by making bubbles... bounce. It's a fun time.",
     "dateActive": "July 2014",
     "languages": "Processing (Java)",

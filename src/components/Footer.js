@@ -23,7 +23,7 @@ export default () => {
           text-align: center;
         `}
       >
-        Personal portfolio site (cbernier.com) v.1.0
+        Personal portfolio site (cbernier.com) v.1.0.1
         © 2020 to Christian Bernier. All rights reserved.
       </p>
     </div>

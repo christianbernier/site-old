@@ -59,7 +59,7 @@ export default () => {
       />
       <div
         css={css`
-          background-color: var(--background-blue);
+          background-color: var(--highlight-blue);
           padding: 10px;
           border-radius: 10px;
           margin: 0 5vw;
@@ -93,7 +93,7 @@ export default () => {
       />
       <div
         css={css`
-          background-color: var(--background-blue);
+          background-color: var(--highlight-blue);
           padding: 10px;
           border-radius: 10px;
           margin: 0 5vw;
@@ -110,49 +110,117 @@ export default () => {
           title="Stars Time-lapse"
           description="I'm experimenting with some astrophotography and this is the first decent-looking product I've been able to make! It's a time-lapse of stars I recorded in my front yard."
           date="August 21st, 2020"
-          embed={<iframe width="100%" height="350" src="https://www.youtube.com/embed/cazfspmfj08" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>}
+          embed={
+            <iframe
+              width="100%"
+              height="350"
+              src="https://www.youtube.com/embed/cazfspmfj08"
+              frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          }
         />
         <MediaTile
           title="Boston and Cambridge Photography"
           description="I've taken a lot of images in Boston and Cambridge over the years. Here are some of my favorites."
           date="2017-present"
-          embed={<iframe src="https://drive.google.com/embeddedfolderview?id=1m6qOt7QJ8M-tP8zqbR7Z695pU4-6um5C#list" width="600" height="315" frameborder="0"></iframe>}
+          embed={
+            <iframe
+              src="https://drive.google.com/embeddedfolderview?id=1m6qOt7QJ8M-tP8zqbR7Z695pU4-6um5C#list"
+              width="600"
+              height="315"
+              frameborder="0"
+            ></iframe>
+          }
         />
         <MediaTile
           title="Blocks App Advertisements"
           description="A set of advertisements I made for my friend's app titled Blocks."
           date="December 2019-January 2020"
-          embed={<iframe src="https://drive.google.com/embeddedfolderview?id=1UxQEJAiwtDLx6asalwzqx1VT3bHO1MqD#list" width="600" height="315" frameborder="0"></iframe>}
+          embed={
+            <iframe
+              src="https://drive.google.com/embeddedfolderview?id=1UxQEJAiwtDLx6asalwzqx1VT3bHO1MqD#list"
+              width="600"
+              height="315"
+              frameborder="0"
+            ></iframe>
+          }
         />
         <MediaTile
           title="Diocletian - Hall of Fame or Shame"
           description="A persuasive video for a world history course explaining why Roman emperor Diocletian should be in the Hall of Fame."
           date="March 13th, 2018"
-          embed={<iframe width="100%" height="350" src="https://www.youtube.com/embed/FAulysO4uJQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>}
+          embed={
+            <iframe
+              width="100%"
+              height="350"
+              src="https://www.youtube.com/embed/FAulysO4uJQ"
+              frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          }
         />
         <MediaTile
           title="The Transistor: How are you watching this video?"
           description="I explain how the transistor works. It’s a simple device that revolutionized the modern world."
           date="November 20th, 2017"
-          embed={<iframe width="100%" height="350" src="https://www.youtube.com/embed/GE6A9u_6Fhc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>}
+          embed={
+            <iframe
+              width="100%"
+              height="350"
+              src="https://www.youtube.com/embed/GE6A9u_6Fhc"
+              frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          }
         />
         <MediaTile
           title="The Columbus Controversy"
           description="Should Columbus Day be a holiday? Find out in this video about Christopher Columbus, what he did, and what he was like."
           date="October 10th, 2016"
-          embed={<iframe width="100%" height="350" src="https://www.youtube.com/embed/Ls_b58XE8rM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>}
+          embed={
+            <iframe
+              width="100%"
+              height="350"
+              src="https://www.youtube.com/embed/Ls_b58XE8rM"
+              frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          }
         />
         <MediaTile
           title="Why Cheap Foods are Bad"
           description="This is a project I did for school on why cheap foods are bad. They are bad because they have corn, because the government is tricking us into eating them, and because they can have huge health costs."
           date="May 10th, 2016"
-          embed={<iframe width="100%" height="350" src="https://www.youtube.com/embed/ApUyMNNA1LA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>}
+          embed={
+            <iframe
+              width="100%"
+              height="350"
+              src="https://www.youtube.com/embed/ApUyMNNA1LA"
+              frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          }
         />
         <MediaTile
           title="Compass Roses"
           description="I explain how compass roses are labeled, the abbreviations for those labels, and more."
           date="April 17th, 2016"
-          embed={<iframe width="100%" height="350" src="https://www.youtube.com/embed/2r3XUHo8DGs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>}
+          embed={
+            <iframe
+              width="100%"
+              height="350"
+              src="https://www.youtube.com/embed/2r3XUHo8DGs"
+              frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          }
         />
       </div>
       <Gap height="100px" />

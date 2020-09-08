@@ -40,7 +40,7 @@ export default ({ height, imgsrc, header, subheader, byline }) => {
           flex-direction: row;
           justify-content: space-between;
 
-          @media only screen and (max-width: 500px) {
+          @media only screen and (max-width: 800px) {
             margin-left: 0;
           }
         `}
@@ -55,7 +55,7 @@ export default ({ height, imgsrc, header, subheader, byline }) => {
               margin-top: 0;
               margin-bottom: 0;
 
-              @media only screen and (max-width: 500px) {
+              @media only screen and (max-width: 800px) {
                 max-width: calc(100vw - 60px);
                 margin-left: 30px;
                 margin-right: 30px;
@@ -72,7 +72,7 @@ export default ({ height, imgsrc, header, subheader, byline }) => {
               font-weight: 600;
               margin-top: 5px;
 
-              @media only screen and (max-width: 500px) {
+              @media only screen and (max-width: 800px) {
                 max-width: calc(100vw - 60px);
                 margin-left: 30px;
                 margin-right: 30px;
@@ -90,7 +90,7 @@ export default ({ height, imgsrc, header, subheader, byline }) => {
             margin-right: 3vw;
             margin-top: calc(-80px + 3vw);
 
-            @media only screen and (max-width: 500px) {
+            @media only screen and (max-width: 800px) {
               display: none;
             }
           `}
@@ -106,7 +106,7 @@ export default ({ height, imgsrc, header, subheader, byline }) => {
           font-style: italic;
           margin-left: 5%;
 
-          @media only screen and (max-width: 500px) {
+          @media only screen and (max-width: 800px) {
             max-width: calc(100vw - 60px);
             margin-left: 30px;
             margin-right: 30px;
