@@ -14,6 +14,13 @@
     "linkURLs": ["https://apps.apple.com/us/app/id1502936936", "https://github.com/christianbernier/MBTAWiki_App"]
   },
   {
+    "title": "National Honor Society Website",
+    "description": "A site I designed and programmed for the National Honor Society at my high school. It includes resources for members and interactive elements for active projects and tracking community service hours.",
+    "dateActive": "September 2020-present",
+    "linkTexts": ["nhs.cbernier.com", "Source Code"],
+    "linkURLs": ["https://nhs.cbernier.com", "https://github.com/christianbernier/NHS_Website"]
+  },
+  {
     "title": "Portfolio site",
     "description": "You're on it! This was just a quick project to display some of my other projects and have a nice \"internet home.\" It's very cozy in here :)",
     "dateActive": "September 2020-present",
