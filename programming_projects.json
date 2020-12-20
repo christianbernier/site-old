@@ -1,0 +1,135 @@
+[
+  {
+    "title": "MBTA Wiki",
+    "description": "A guide to the public transit system in Massachusetts. On this site, you will find information about every station in the network, line alerts, and live predictions to make commuting easier.",
+    "dateActive": "2017-present",
+    "linkTexts": ["mbtawiki.com", "Source Code"],
+    "linkURLs": ["https://mbtawiki.com", "https://github.com/christianbernier/mbtawiki"]
+  },
+  {
+    "title": "MBTA Wiki iOS App",
+    "description": "The mobile app version of MBTA Wiki. All the same features and more for easy commuting. Save stations as favorites for quick access, see live predictions on your phone, and more!",
+    "dateActive": "March 2020-present",
+    "linkTexts": ["Apple App Store", "Source Code"],
+    "linkURLs": ["https://apps.apple.com/us/app/id1502936936", "https://github.com/christianbernier/MBTAWiki_App"]
+  },
+  {
+    "title": "Portfolio site",
+    "description": "You're on it! This was just a quick project to display some of my other projects and have a nice \"internet home.\" It's very cozy in here :)",
+    "dateActive": "September 2020-present",
+    "linkTexts": ["cbernier.com", "Source Code"],
+    "linkURLs": ["https://cbernier.com", "https://github.com/christianbernier/site"]
+  },
+  {
+    "title": "AP Score Distributions",
+    "description": "View score distributions for College Board's AP tests for 2020 and the past few years. See how difficult this year's tests were compared to previous years.",
+    "dateActive": "July 2020",
+    "linkTexts": ["ap.cbernier.com", "Source Code"],
+    "linkURLs": ["https://ap.cbernier.com", "https://github.com/christianbernier/ap-scores-distributions"]
+  },
+  {
+    "title": "Gerrymander Me!",
+    "description": "A little game to demonstrate the dangers of letting politians decide voting districts. You work for a political party and try to make them win the election without a majority of voters.",
+    "dateActive": "July–November 2020",
+    "linkTexts": ["gerrymanderme.cbernier.com", "Source Code"],
+    "linkURLs": ["https://gerrymanderme.cbernier.com", "https://github.com/christianbernier/gerrymander-me"]
+  },
+  {
+    "title": "LHS Block Calendar Generator",
+    "description": "A Java program to make an .ics calendar file for my school schedule.",
+    "dateActive": "February-March 2020",
+    "linkTexts": ["Source Code"],
+    "linkURLs": ["https://github.com/christianbernier/LHS_Block_Calendar"]
+  },
+  {
+    "title": "APUSH Crypto-Quote Decipher Tool",
+    "description": "A Java program to help me decipher the extra-credit \"crypto-quotes\" for my AP U.S. History class. Yes, seriously.",
+    "dateActive": "November 2019",
+    "linkTexts": ["Source Code"],
+    "linkURLs": ["https://github.com/christianbernier/APUSH_Codes"]
+  },
+  {
+    "title": "PolyPack",
+    "description": "A program for TI-84 Plus CE calculators to work with polynomials. Functions include a linear divider, a polynomial divider, and a factorer.",
+    "dateActive": "October 2019",
+    "linkTexts": ["Source Code"],
+    "linkURLs": ["https://github.com/christianbernier/PolyPack"]
+  },
+  {
+    "title": "Fractals",
+    "description": "My final project for AP Computer Science A I made with a friend. The program renders 3D fractals and lets the user explore them. Also generates really cool backgrounds.",
+    "dateActive": "May-June 2019",
+    "linkTexts": ["Source Code"],
+    "linkURLs": ["https://github.com/christianbernier/fractals"]
+  },
+  {
+    "title": "Auto Scheduler",
+    "description": "An automated script to schedule church service volunteers for me. I got tired of doing it manually, okay?",
+    "dateActive": "February 2019",
+    "linkTexts": ["Source Code"],
+    "linkURLs": ["https://github.com/christianbernier/AutoScheduler"]
+  },
+  {
+    "title": "MineControl",
+    "description": "A project I made with a couple friends for the MIT Blueprint 2019 hackathon to control Minecraft with an external circuit.",
+    "dateActive": "February 2019",
+    "linkTexts": ["Source Code"],
+    "linkURLs": ["https://github.com/christianbernier/minecontrol"]
+  },
+  {
+    "title": "Integer Sines",
+    "description": "A very small project to brute-force a curiosity I had. The question I was wondering was: the sine of which integer is closest to 1?",
+    "dateActive": "February 2019",
+    "linkTexts": ["Source Code"],
+    "linkURLs": ["https://github.com/christianbernier/integer-sines"]
+  },
+  {
+    "title": "Sorting Visualizers",
+    "description": "I liked the YouTube visualizations so much I tried to make my own version.",
+    "dateActive": "January 2019",
+    "linkTexts": ["Source Code"],
+    "linkURLs": ["https://github.com/christianbernier/SortingVisualizers"]
+  },
+  {
+    "title": "AI Battleship",
+    "description": "A modified version of a lab for a computer programming intro course. I basically made a computer play Battleship with me.",
+    "dateActive": "February 2018",
+    "linkTexts": ["Source Code"],
+    "linkURLs": ["https://github.com/christianbernier/AI_Battleship"]
+  },
+  {
+    "title": "Potato Run",
+    "description": "A game I made a summer camp where you're a potato trying to run to a finish flag, dodging tomatoes. It has a... *unique* artstyle. I was in 5th grade, okay?",
+    "dateActive": "2014-2015",
+    "linkTexts": ["Source Code"],
+    "linkURLs": ["https://github.com/christianbernier/PotatoRun"]
+  },
+  {
+    "title": "Speed Reading",
+    "description": "A very old program of mine to see how fast I could read.",
+    "dateActive": "July 2014",
+    "linkTexts": ["Source Code"],
+    "linkURLs": ["https://github.com/christianbernier/SpeedReading"]
+  },
+  {
+    "title": "Countdown",
+    "description": "Another old program of mine to show a countdown on the screen for a certain number of seconds.",
+    "dateActive": "July 2014",
+    "linkTexts": ["Source Code"],
+    "linkURLs": ["https://github.com/christianbernier/Countdown"]
+  },
+  {
+    "title": "Bubble Bounce",
+    "description": "One of my first programs. It's me experimenting with Processing by making bubbles... bounce. It's a fun time.",
+    "dateActive": "July 2014",
+    "linkTexts": ["Source Code"],
+    "linkURLs": ["https://github.com/christianbernier/BubbleBounce"]
+  },
+  {
+    "title": "C-Chat",
+    "description": "The first program I ever made, now on the Internet for all to see. It's a chatting program for Windows users on the same network.",
+    "dateActive": "April 2014-May 2015",
+    "linkTexts": ["Source Code"],
+    "linkURLs": ["https://github.com/christianbernier/C-Chat"]
+  }
+]

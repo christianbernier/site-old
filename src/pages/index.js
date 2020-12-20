@@ -1,230 +1,145 @@
-import React from "react";
+import React, { useState } from "react";
 import { css } from "@emotion/core";
+
 import GlobalCSS from "../components/GlobalCSS";
-import ProjectTile from "../components/ProjectTile";
-import BleedImage from "../components/BleedImage";
-import BodyHeader from "../components/BodyHeader";
+import ProfilePicture from "../../assets/profile.jpg";
+import Curve from "../components/Curve";
+import SectionTitle from "../components/SectionTitle";
 import BodyText from "../components/BodyText";
-import SocialLinks from "../components/SocialLinks";
-import Gap from "../components/Gap";
-import Footer from "../components/Footer";
-import Projects from "../../projects.json";
-import MediaTile from "../components/MediaTile";
+import ProgrammingPortfolio from "../components/ProgrammingPortfolio";
+import MediaPortfolio from "../components/MediaPortfolio";
 
 export default () => {
   return (
     <>
+      <Curve />
+
       <GlobalCSS />
-      <BleedImage
-        imgsrc="index_cover"
-        header="Christian Bernier"
-        subheader="Greater Boston, Massachusetts"
-        byline="Charles River, Boston, MA"
-        height="1000px"
-      />
-      <Gap height="50px" />
-      <BodyHeader text="About" line={true} />
-      <BodyText
-        paragraphs={[
-          "My name is Christian Bernier and I am currently a senior in high school in Massachusetts. In my free time I love to program, experiment with photography/videography, and learn as much as possible about technology.",
-          "I spend much of my time volunteering at my local church, Grace Chapel, operating AV tech and leading a group of about 25 middle school and high school students. In response to the COVID-19 pandemic, I’ve been assisting in their video production by operating camera equipment and editing parts of the service in Final Cut Pro X.",
-          "Additionally, I enjoy programming in my free time. I am currently learning SwiftUI and am expanding my skills in JavaScript, specifically NodeJS, React, Gatsby, and Expo. You can find some of my programming projects below, including source code.",
-          "Thank you for visiting my portfolio and please let me know if you have any questions by emailing me at christian@cbernier.com.",
-        ]}
-      />
-      <Gap height="30px" />
-      <BodyHeader text="Social links" line={true} />
-      <BodyText
-        paragraphs={[
-          "You can find me on several different social platforms. Here are some of them:",
-        ]}
-      />
-      <SocialLinks
-        titles={["Email", "LinkedIn", "GitHub", "Twitter", "Instagram"]}
-        links={[
-          "mailto:christian@cbernier.com",
-          "https://linkedin.com/in/christian-bernier-965885167/",
-          "https://github.com/christianbernier",
-          "https://twitter.com/cberns__",
-          "https://instagram.com/christianjbernier",
-        ]}
-      />
-      <Gap height="30px" />
-      <BodyHeader text="Programming portfolio" line={true} />
-      <BodyText
-        paragraphs={[
-          "I've written a lot of programs over the years. Here are pretty much all the completed program I could find on my computer. Unfortunetely, many have been lost over the years before I used GitHub and decent backup systems.",
-          "If you have any questions about any program, please ask! I'd be happy to answer them.",
-        ]}
-      />
       <div
         css={css`
-          background-color: var(--highlight-blue);
-          padding: 10px;
-          border-radius: 10px;
-          margin: 0 5vw;
-          height: 800px;
-          overflow-y: scroll;
-          overflow-x: hidden;
-
-          @media only screen and (min-width: 1700px) {
-            margin: 0 calc(((100vw - 1700px) / 2) + 30px);
-          }
+          width: 100vw;
+          height: 100vh;
+          display: grid;
+          grid-template-areas:
+            "content"
+            "footer";
+          grid-template-rows: auto auto;
+          grid-template-columns: 100vw;
         `}
       >
-        {Projects.map((p) => (
-          <ProjectTile
-            title={p.title}
-            description={p.description}
-            url={p.url}
-            date={p.dateActive}
-            languages={p.languages}
-            openSourceUrl={p.sourceCodeUrl}
-          />
-        ))}
-      </div>
-      <Gap height="30px" />
-      <BodyHeader text="Media portfolio" line={true} />
-      <BodyText
-        paragraphs={[
-          "This gallery includes photos I've taken, videos I have recorded and edited, and graphics I have made.",
-          "If you have any questions about anything here, please ask! I'd be happy to answer them.",
-        ]}
-      />
-      <div
-        css={css`
-          background-color: var(--highlight-blue);
-          padding: 10px;
-          border-radius: 10px;
-          margin: 0 5vw;
-          height: 800px;
-          overflow-y: scroll;
-          overflow-x: hidden;
+        <div
+          css={css`
+            grid-area: content;
+            padding: 0 40px;
+            margin: 0 auto;
+            margin-bottom: 50px;
+            width: 80vw;
+            max-width: 1300px;
+          `}
+        >
+          <div
+            css={css`
+              display: grid;
+              margin-top: -15vh;
+              grid-template-areas:
+                ". pfp"
+                "title pfp"
+                "subtitle subtitle";
+              grid-template-columns: 85% 15%;
+              grid-template-rows: auto auto auto;
 
-          @media only screen and (min-width: 1700px) {
-            margin: 0 calc(((100vw - 1700px) / 2) + 30px);
-          }
-        `}
-      >
-        <MediaTile
-          title="Stars Time-lapse"
-          description="I'm experimenting with some astrophotography and this is the first decent-looking product I've been able to make! It's a time-lapse of stars I recorded in my front yard."
-          date="August 21st, 2020"
-          embed={
-            <iframe
-              width="100%"
-              height="350"
-              src="https://www.youtube.com/embed/cazfspmfj08"
-              frameborder="0"
-              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-          }
-        />
-        <MediaTile
-          title="Boston and Cambridge Photography"
-          description="I've taken a lot of images in Boston and Cambridge over the years. Here are some of my favorites."
-          date="2017-present"
-          embed={
-            <iframe
-              src="https://drive.google.com/embeddedfolderview?id=1m6qOt7QJ8M-tP8zqbR7Z695pU4-6um5C#list"
-              width="600"
-              height="315"
-              frameborder="0"
-            ></iframe>
-          }
-        />
-        <MediaTile
-          title="Blocks App Advertisements"
-          description="A set of advertisements I made for my friend's app titled Blocks."
-          date="December 2019-January 2020"
-          embed={
-            <iframe
-              src="https://drive.google.com/embeddedfolderview?id=1UxQEJAiwtDLx6asalwzqx1VT3bHO1MqD#list"
-              width="600"
-              height="315"
-              frameborder="0"
-            ></iframe>
-          }
-        />
-        <MediaTile
-          title="Diocletian - Hall of Fame or Shame"
-          description="A persuasive video for a world history course explaining why Roman emperor Diocletian should be in the Hall of Fame."
-          date="March 13th, 2018"
-          embed={
-            <iframe
-              width="100%"
-              height="350"
-              src="https://www.youtube.com/embed/FAulysO4uJQ"
-              frameborder="0"
-              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-          }
-        />
-        <MediaTile
-          title="The Transistor: How are you watching this video?"
-          description="I explain how the transistor works. It’s a simple device that revolutionized the modern world."
-          date="November 20th, 2017"
-          embed={
-            <iframe
-              width="100%"
-              height="350"
-              src="https://www.youtube.com/embed/GE6A9u_6Fhc"
-              frameborder="0"
-              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-          }
-        />
-        <MediaTile
-          title="The Columbus Controversy"
-          description="Should Columbus Day be a holiday? Find out in this video about Christopher Columbus, what he did, and what he was like."
-          date="October 10th, 2016"
-          embed={
-            <iframe
-              width="100%"
-              height="350"
-              src="https://www.youtube.com/embed/Ls_b58XE8rM"
-              frameborder="0"
-              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-          }
-        />
-        <MediaTile
-          title="Why Cheap Foods are Bad"
-          description="This is a project I did for school on why cheap foods are bad. They are bad because they have corn, because the government is tricking us into eating them, and because they can have huge health costs."
-          date="May 10th, 2016"
-          embed={
-            <iframe
-              width="100%"
-              height="350"
-              src="https://www.youtube.com/embed/ApUyMNNA1LA"
-              frameborder="0"
-              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-          }
-        />
-        <MediaTile
-          title="Compass Roses"
-          description="I explain how compass roses are labeled, the abbreviations for those labels, and more."
-          date="April 17th, 2016"
-          embed={
-            <iframe
-              width="100%"
-              height="350"
-              src="https://www.youtube.com/embed/2r3XUHo8DGs"
-              frameborder="0"
-              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-          }
-        />
+              @media only screen and (max-width: 1200px) {
+                grid-template-areas:
+                  "title"
+                  "subtitle";
+
+                grid-template-rows: auto auto;
+                grid-template-columns: auto;
+              }
+            `}
+          >
+            <p
+              css={css`
+                font-size: 42px;
+                font-weight: 900;
+                margin-top: 0;
+                grid-area: title;
+
+                @media only screen and (max-width: 1310px) {
+                  margin-top: 15vh;
+                }
+              `}
+            >
+              Christian Bernier
+            </p>
+            <p
+              css={css`
+                margin-top: -30px;
+                font-style: italic;
+                font-size: 22px;
+                font-weight: 400;
+                grid-area: subtitle;
+                margin-bottom: 0;
+              `}
+            >
+              High school student and programmer in Greater Boston,
+              Massachusetts
+            </p>
+            <img
+              src={ProfilePicture}
+              css={css`
+                grid-area: pfp;
+                width: 100%;
+                border-radius: 100%;
+                background-color: var(--light-green);
+                padding: 20px;
+
+                @media only screen and (max-width: 1310px) {
+                  display: none;
+                }
+              `}
+            />
+          </div>
+          <SectionTitle title="About" line={true} />
+          <BodyText text="My name is Christian Bernier. I’m an 18-year old senior in high school in the Greater Boston region in Massachusetts. I enjoy programming and photography/videography in my free time, so this is a portfolio website I designed and created to show off some of my work." />
+          <BodyText text="I spend much of my time volunteering at my local church, Grace Chapel, operating AV tech and leading a group of about 25 middle school and high school students. In response to the COVID-19 pandemic, I’ve been assisting in their video production by operating camera equipment and editing parts of the service in Final Cut Pro X." />
+          <BodyText text="Additionally, I enjoy programming in my free time. I am currently learning SwiftUI and am expanding my skills in JavaScript, specifically NodeJS, React, Gatsby, and Expo. You can find some of my programming projects below, including source code." />
+          <SectionTitle title="Contact" line={true} />
+          <BodyText text="Please feel free to contact me with any questions or comments by emailing [christian@cbernier.com](mailto:christian@cbernier.com)." />
+          <BodyText text="Also, please check out my [Twitter](https://twitter.com/cberns__), [LinkedIn](https://linkedin.com/in/christian-bernier-965885167/), and [GitHub](https://github.com/christianbernier) pages." />
+          <SectionTitle title="Programming Portfolio" line={true} />
+          <BodyText text="Below are some of the programs I've created over the years. All programs listed below have source code on GitHub. Some include links to view the live project." />
+          <ProgrammingPortfolio />
+          <SectionTitle title="Media Portfolio" line={true} />
+          <BodyText text="Below are some of the videos and photos I've either taken, helped record, or edited. All the content below has links to view the final product." />
+          <MediaPortfolio />
+        </div>
+        <div
+          css={css`
+            grid-area: footer;
+            background-color: var(--light-green);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 90vw;
+            margin: 0 auto;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+          `}
+        >
+          <p
+            css={css`
+              font-size: 15px;
+              color: var(--dark-green);
+              width: 80%;
+              text-align: center;
+            `}
+          >
+            Christian Bernier's Personal Portfolio Website © 2020 to Christian
+            Bernier.
+          </p>
+        </div>
       </div>
-      <Gap height="100px" />
-      <Footer />
     </>
   );
 };
