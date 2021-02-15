@@ -21,6 +21,13 @@
     "linkURLs": ["https://nhs.cbernier.com", "https://github.com/christianbernier/NHS_Website"]
   },
   {
+    "title": "Lissajous Curve Visualizer",
+    "description": "This was a quick project to visualize Lissajous curves, which are representations of complex harmonic motion through a system of parametric equations.",
+    "dateActive": "February 2021",
+    "linkTexts": ["lissajous.cbernier.com", "Source Code"],
+    "linkURLs": ["https://lissajous.cbernier.com", "https://github.com/christianbernier/lissajous"]
+  },
+  {
     "title": "Portfolio site",
     "description": "You're on it! This was just a quick project to display some of my other projects and have a nice \"internet home.\" It's very cozy in here :)",
     "dateActive": "September 2020-present",
