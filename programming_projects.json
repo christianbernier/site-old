@@ -1,5 +1,12 @@
 [
   {
+    "title": "NHS Cookbook Website",
+    "description": "As a student leader for the National Honor Society at my high school, I helped a team of students develop a cookbook from our peers' recipes. I then designed and coded a site for it, and this is that site!",
+    "dateActive": "February 2021-present",
+    "linkTexts": ["cookbook.cbernier.com", "Source Code"],
+    "linkURLs": ["https://cookbook.cbernier.com", "https://github.com/christianbernier/NHSCookbook"]
+  },
+  {
     "title": "MBTA Wiki",
     "description": "A guide to the public transit system in Massachusetts. On this site, you will find information about every station in the network, line alerts, and live predictions to make commuting easier.",
     "dateActive": "2017-present",
