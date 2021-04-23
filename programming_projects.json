@@ -28,6 +28,13 @@
     "linkURLs": ["https://nhs.cbernier.com", "https://github.com/christianbernier/NHS_Website"]
   },
   {
+    "title": "Double Pendulum Visualizer",
+    "description": "This is another physics visualization I made to show how double pendulums work, and how they can result in chaotic or simple motion.",
+    "dateActive": "April 2021",
+    "linkTexts": ["pendulums.cbernier.com", "Source Code"],
+    "linkURLs": ["https://pendulums.cbernier.com", "https://github.com/christianbernier/pendulums"]
+  },
+  {
     "title": "Lissajous Curve Visualizer",
     "description": "This was a quick project to visualize Lissajous curves, which are representations of complex harmonic motion through a system of parametric equations.",
     "dateActive": "February 2021",
