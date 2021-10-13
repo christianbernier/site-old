@@ -134,7 +134,7 @@ export default () => {
               text-align: center;
             `}
           >
-            Christian Bernier's Personal Portfolio Website © 2020 to Christian
+            Christian Bernier's Personal Portfolio Website © 2020–2021 to Christian
             Bernier.
           </p>
         </div>
