@@ -82,8 +82,7 @@ export default () => {
                 margin-bottom: 0;
               `}
             >
-              High school student and programmer in Greater Boston,
-              Massachusetts
+              First year undergraduate student and programmer in Boston, Massachusetts
             </p>
             <img
               src={ProfilePicture}
@@ -101,10 +100,9 @@ export default () => {
             />
           </div>
           <SectionTitle title="About" line={true} />
-          <BodyText text="My name is Christian Bernier. I’m an 18-year old senior in high school in the Greater Boston region in Massachusetts. I enjoy programming and photography/videography in my free time, so this is a portfolio website I designed and created to show off some of my work." />
-          <BodyText text="This fall I'm beginning my undergraduate degree as a computer science/physics major at Northeastern University in Boston, MA. In anticipation for studying the interdiciplinary CS/physics field, I have begun creating physics visualizations using my knowledge of computer science and physics. Check them out below." />
-          <BodyText text="I spend much of my time volunteering at my local church, Grace Chapel, operating AV tech and leading a group of about 25 middle school and high school students. In response to the COVID-19 pandemic, I’ve been assisting in their video production by operating camera equipment and editing parts of the service in Final Cut Pro X." />
-          <BodyText text="Additionally, I enjoy programming in my free time. I am currently learning SwiftUI and am expanding my skills in JavaScript, specifically NodeJS, React, Gatsby, and Expo. You can find some of my programming projects below, including source code." />
+          <BodyText text="My name is Christian Bernier. I’m an 19-year old first year undergraduate student at Northeastern University Boston, Massachusetts studying computer science and physics. I enjoy programming and photography/videography in my free time, so this is a portfolio website I designed and created to show off some of my work." />
+          <BodyText text="Before college, I would spend much of my time volunteering at my local church, Grace Chapel, operating AV tech and leading a group of about 25 middle school and high school students. In response to the COVID-19 pandemic, I assisted in their video production by operating camera equipment and edited parts of the service in Final Cut Pro X." />
+          <BodyText text="Additionally, I enjoy programming in my free time. I'm not working on anything specific right now, as I adjust to life in college, but you can find some of my previous programming projects below, including source code." />
           <SectionTitle title="Contact" line={true} />
           <BodyText text="Please feel free to contact me with any questions or comments by emailing [christian@cbernier.com](mailto:christian@cbernier.com)." />
           <BodyText text="Also, please check out my [Twitter](https://twitter.com/cberns__), [LinkedIn](https://linkedin.com/in/christian-bernier-965885167/), and [GitHub](https://github.com/christianbernier) pages." />
