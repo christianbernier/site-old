@@ -100,7 +100,7 @@ export default () => {
             />
           </div>
           <SectionTitle title="About" line={true} />
-          <BodyText text="My name is Christian Bernier. I’m an 19-year old first year undergraduate student at Northeastern University in Boston, Massachusetts studying computer science and physics. I enjoy programming and photography/videography in my free time, so this is a portfolio website I designed and created to show off some of my work." />
+          <BodyText text="My name is Christian Bernier. I’m a 19-year old first year undergraduate student at Northeastern University in Boston, Massachusetts studying computer science and physics. I enjoy programming and photography/videography in my free time, so this is a portfolio website I designed and created to show off some of my work." />
           <BodyText text="Before college, I would spend much of my time volunteering at my local church, Grace Chapel, operating AV tech and leading a group of about 25 middle school and high school students. In response to the COVID-19 pandemic, I assisted in their video production by operating camera equipment and edited parts of the service in Final Cut Pro X." />
           <BodyText text="Additionally, I enjoy programming in my free time. I'm not working on anything specific right now, as I adjust to life in college, but you can find some of my previous programming projects below, including source code." />
           <SectionTitle title="Contact" line={true} />
