@@ -1,8 +1,15 @@
 [
   {
+    "title": "Special Relativity Visualizer",
+    "description": "In an effort to visualize the effects of special relativity, I made an interactive spacetime diagram that allows users to see how velocities add, and how situations like the Twin Paradox work in real life.",
+    "dateActive": "January 2022",
+    "linkTexts": ["relativity.cbernier.com", "Source Code"],
+    "linkURLs": ["https://relativity.cbernier.com", "https://github.com/christianbernier/relativity"]
+  },
+  {
     "title": "NHS Cookbook Website",
     "description": "As a student leader for the National Honor Society at my high school, I helped a team of students develop a cookbook from our peers' recipes. I then designed and coded a site for it, and this is that site!",
-    "dateActive": "February 2021-present",
+    "dateActive": "February 2021",
     "linkTexts": ["cookbook.cbernier.com", "Source Code"],
     "linkURLs": ["https://cookbook.cbernier.com", "https://github.com/christianbernier/NHSCookbook"]
   },
@@ -23,7 +30,7 @@
   {
     "title": "National Honor Society Website",
     "description": "A site I designed and programmed for the National Honor Society at my high school. It includes resources for members and interactive elements for active projects and tracking community service hours.",
-    "dateActive": "September 2020-present",
+    "dateActive": "September 2020-July 2021",
     "linkTexts": ["nhs.cbernier.com", "Source Code"],
     "linkURLs": ["https://nhs.cbernier.com", "https://github.com/christianbernier/NHS_Website"]
   },

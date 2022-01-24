@@ -102,7 +102,7 @@ export default () => {
           <SectionTitle title="About" line={true} />
           <BodyText text="My name is Christian Bernier. I’m a 19-year old first year undergraduate student at Northeastern University in Boston, Massachusetts studying computer science and physics. I enjoy programming and photography/videography in my free time, so this is a portfolio website I designed and created to show off some of my work." />
           <BodyText text="Before college, I would spend much of my time volunteering at my local church, Grace Chapel, operating AV tech and leading a group of about 25 middle school and high school students. In response to the COVID-19 pandemic, I assisted in their video production by operating camera equipment and edited parts of the service in Final Cut Pro X." />
-          <BodyText text="Additionally, I enjoy programming in my free time. I'm not working on anything specific right now, as I adjust to life in college, but you can find some of my previous programming projects below, including source code." />
+          <BodyText text="Additionally, I enjoy programming in my free time. I have a goal to program visualizations of physics concepts I'm learning in my physics course this semester, so feel free to check those out below." />
           <SectionTitle title="Contact" line={true} />
           <BodyText text="Please feel free to contact me with any questions or comments by emailing [christian@cbernier.com](mailto:christian@cbernier.com)." />
           <BodyText text="Also, please check out my [Twitter](https://twitter.com/cberns__), [LinkedIn](https://linkedin.com/in/christian-bernier-965885167/), and [GitHub](https://github.com/christianbernier) pages." />
@@ -134,7 +134,7 @@ export default () => {
               text-align: center;
             `}
           >
-            Christian Bernier's Personal Portfolio Website © 2020–2021 to Christian
+            Christian Bernier's Personal Portfolio Website © 2020–2022 to Christian
             Bernier.
           </p>
         </div>
