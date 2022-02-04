@@ -1,5 +1,12 @@
 [
   {
+    "title": "Physics Notes",
+    "description": "I decided to take notes for my modern physics class in Markdown, then build a static site generator to turn those notes into a website! The website allows me to type equations in LaTeX, and has made for a helpful study resource.",
+    "dateActive": "February 2022",
+    "linkTexts": ["physics.notes.cbernier.com", "Source Code"],
+    "linkURLs": ["https://physics.notes.cbernier.com", "https://github.com/christianbernier/physicsnotes"]
+  },
+  {
     "title": "Special Relativity Visualizer",
     "description": "In an effort to visualize the effects of special relativity, I made an interactive spacetime diagram that allows users to see how velocities add, and how situations like the Twin Paradox work in real life.",
     "dateActive": "January 2022",
